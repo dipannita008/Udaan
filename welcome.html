@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE = edge">
+  <meta name=viewport content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <title>Welcome Page</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="fonts/google-fonts.css">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Quicksand&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <!--swiper js-->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+  <!--My CSS file-->
+  <link rel="stylesheet" href="welcome.css">
+  
+</head>
+
+<body>
+  <!--header section starts-->
+  <header class="header">
+    <a class="logo"><img src="Images/Travel_Logo_1.png" width="150" height="80" class="d-inline-block align-top"
+        alt=""></a>
+    <div class="icons">
+      <div class="fas fa-moon" id="theme-btn"></div>
+      <div class="fas fa-user" id="register-btn"></div>
+    </div>
+  </header>
+  
+  <!-- register form container  -->
+ 
+  <div class="register-form-container">
+
+    <i class="fa-solid fa-x" id="form-close"></i>
+
+    <form name="form1" method="post" action="Register2.jsp">
+      <h3>Create User account</h3>
+      <input type="name" name="n1" class="box" placeholder="Enter your Username">
+      <input type="email" name="n2" class="box" placeholder="Enter your email">
+      <input type="password" name="n3" class="box" placeholder="Enter your password">
+      <input type="submit" value="Register Now" class="btn">
+      <p>Already have an account ? <a href="Login.html">Login now</a></p>
+      
+    </form>
+  </div>
+
+
+
+  <!-- home section starts-->
+  <section class="home" id="home">
+
+    <div class="video-container">
+      <video src="final_background_.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+
+    <div class="content">
+      <h3>
+        <font color="#FFF">Why </font><b>Walk</b>
+      </h3>
+      <h3>
+        <font color="#FFF">When you can </font><b>Fly!</b>
+      </h3>
+      <p>Book your udaan with us</p>
+      <a href="signin.html" class="btn">Let's Fly</a>
+    </div>
+  </section>
+
+  <!-- section2 starts-->
+  <section class="section2" id="section2">
+
+    <h1 class="heading"><b>Handpicked Travel Destinations For You <i class="fa-solid fa-paper-plane"></i></h1></b>
+    
+    <!-- Carousel wrapper -->
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+          aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+          aria-label="Slide 6"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6"
+          aria-label="Slide 7"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7"
+          aria-label="Slide 8"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8"
+          aria-label="Slide 9"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="9"
+          aria-label="Slide 10"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Images/Kolkata.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1><b>KOLKATA</b></h1>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Images/Bangalore .jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1><b>BANGALORE</b></h1>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Images/Goa.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1><b>GOA</b></h1>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Images/CHENNAI .jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1><b>CHENNAI</b></h1>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Images/Gangtok2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1><b>GANGTOK</b></h1>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Images/Assam.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1><b>ASSAM</b></h1>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Images/Hyderabad.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1><b>HYDERABAD</b></h1>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Images/mumbai.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1><b>MUMBAI</b></h1>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Images/New delhi .jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1><b>NEW DELHI</b></h1>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Images/Pondicherry.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1><b>PONDICHERRY</b></h1>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+
+  <!--Section team strts-->
+  <section class="team" id="team">
+
+    <h2 class="headline">Fly High Team <i class="fa-solid fa-laptop-code"></i></h2>
+
+    <div class="row">
+      <div class="card">
+        <div class="image">
+          <img src="Images/Cindy_1.png" alt="" width ="130" height="130">
+        </div>
+        <div class="info">
+          <h4>Cinderella Debnath</h4>
+          <span>Backend Web Developer</span>
+        <div class="icons">
+          <a href ="#" class="fab fa-facebook-f"></a>
+          <a href ="#" class="fab fa-twitter"></a>
+          <a href ="#" class="fab fa-instagram"></a>
+        </div>
+        </div>
+      </div>
+      
+      <div class="card">
+        <div class="image">
+          <img src="Images/DIPS.png" alt="" width ="130" height="130">
+        </div>
+        <div class="info">
+          <h4>Dipannita Nath</h4>
+          <span>Frontend Web Developer</span>
+        <div class="icons">
+          <a href ="#" class="fab fa-facebook-f"></a>
+          <a href ="#" class="fab fa-twitter"></a>
+          <a href ="#" class="fab fa-instagram"></a>
+        </div>
+        </div>
+      </div>
+      
+      <div class="card">
+        <div class="image">
+          <img src="Images/Rik.png" alt="" width ="130" height="130">
+        </div>
+        <div class="info">
+          <h4>Sounak Roy</h4>
+          <span>Backend Web Developer</span>
+        <div class="icons">
+          <a href ="#" class="fab fa-facebook-f"></a>
+          <a href ="#" class="fab fa-twitter"></a>
+          <a href ="#" class="fab fa-instagram"></a>
+        </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="image">
+          <img src="Images/SWARUP.png" alt="" width ="130" height="130">
+        </div>
+        <div class="info">
+          <h4>Swarup Rudra Paul</h4>
+          <span>Frontend Web Developer</span>
+        <div class="icons">
+          <a href ="#" class="fab fa-facebook-f"></a>
+          <a href ="#" class="fab fa-twitter"></a>
+          <a href ="#" class="fab fa-instagram"></a>
+        </div>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- footer section starts-->
+  <section class ="footer">
+
+    <div class="credit">
+      <i class="fa-regular fa-copyright"></i>2022, <span>Fly High</span> | All rights reserved </div>
+    <div class="f-icons">
+      <i class="fa-brands fa-cc-visa"></i>    <i class='fa fa-cc-mastercard'></i>   <i class='fa fa-cc-paypal'></i>
+    </div>
+  </section>
+
+
+  <!-- JS files-->
+  <script src="myscript.js"></script>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <script src= "https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+    integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+    crossorigin="anonymous"></script>
+  <!--swiper JS link-->
+  <script type="module">
+    import Swiper from 'https://unpkg.com/swiper@8/swiper-bundle.esm.browser.min.js'
+
+            // const swiper = new Swiper(...)
+  </script>
+</body>
+</html>

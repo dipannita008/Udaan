@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Quicksand&display=swap");
+:root {
+  --orange:#a24bf9;
+  --text-color-1:#444;
+  --text-color-2:#666;
+  --bg-color-1:rgba(252, 248, 248, 0.269);
+  --bg-color-2:rgba(252, 248, 248, 0.295);
+  --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
+}
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+  }
+
+html::-webkit-scrollbar {
+   width: .8rem;
+}
+  
+html::-webkit-scrollbar-track {
+    background: transparent;
+}
+  
+html::-webkit-scrollbar-thumb {
+    background: var(--orange);
+    border-radius: 5rem;
+}
+  
+section {
+    padding: 0rem 9%;
+  }
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: var(--bg-color-1);
+    -webkit-box-shadow: var(--box-shadow);
+            box-shadow: var(--box-shadow);
+    padding: .0rem 4%;
+    z-index: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.header .logo {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: var(--text-color-1);
+  }
+
+.header .icons div {
+    height: 3.5rem;
+    width: 3.5rem;
+    line-height: 3.5rem;
+    font-size: 2rem;
+    border-radius: .5rem;
+    margin-left: .5rem;
+    background: #aea7e7;
+    /* background:var(--bg-color-2); */
+    color: var(--text-color-1);
+    cursor: pointer;
+    text-align: center;
+  }
+  body.active {
+    --text-color-1:rgb(145, 137, 137);
+    --text-color-2:#fff;
+    --bg-color-1:#333;
+    --bg-color-2:#222;
+    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.4);
+  }
+
+  .home{
+    top: 110px;
+    left: 270px;
+    position: absolute;
+  }
+
+  .h1{
+    font-size: 5.5rem;
+    font-family: 'Nunito', sans-serif;
+    color: #ed7ea0;
+    text-shadow: 0.3rem 0.4rem rgba(0, 0, 0, 0.1);
+  }
+  
+  .home .book-form{
+    padding: 2rem;
+    background: #b0a7e734;
+  }
+
+  .btn {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+    padding: .7rem 2rem;
+    font-size: 1.3rem;
+    color: #fff;
+    background: #afa7e7bf;
+    border-radius: .3rem;
+    cursor: pointer;
+  }
+
+  .home .booking-form-box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    max-width: 500px;
+    border: 1px solid #ced4da;
+    margin: 10% auto 5;
+  }
+
+  .home .booking-form-box .booking-from{
+    flex: 2 2 41rem;
+    display: grid;
+    height: 200px;
+    /* border: 1px solid #ced4da; */
+    margin: 1% 6 0;
+    padding: 0 15px 15px;
+    
+  }
+
+  /* .home .booking-form-box .booking-to{
+    flex: 2 2 41rem;
+    padding: 0 20px 15px;
+  } */
+
+  .home .booking-form-box .booking-from label{
+    width: 50%;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 1.6rem;
+    color: #fff;
+  }
+
+  .home .booking-form-box .input-grp{
+    width: 149px;
+    padding: .7rem 1rem;
+    display:inline-block;
+  }
+
+  .home .booking-form-box .input-grp label{
+    font-size: 1.6rem;
+    color: #fff;
+  }
+
+  .home .booking-form-box .input-grp .form-control{
+    font-size: 12px;
+    border-radius: 0;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.345);
+    box-shadow: inset;
+  }
+
+  .home .search-btn{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    position: absolute;
+    display: inline-block;
+    padding: .7rem 2rem;
+    font-size: 1.7rem;
+    color: #fff;
+    background: #afa7e7bf;
+    border-radius: .3rem;
+    cursor: pointer;
+    
+  }
+
